@@ -4,20 +4,21 @@ import { motion, MotionValue, useScroll, useTransform } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import { gsap } from "@/lib/gsap-config";
+import { asset } from "@/lib/base-path";
 
 const IMAGES = [
-  "/travel-images/22f55cc3f9c4f438dcaff5873166bc37.jpg",
-  "/travel-images/644728dd03e03051ec91872eee56abce.jpg",
-  "/travel-images/6d7127470eb0c4fa982a69d7ab4f0fbf.jpg",
-  "/travel-images/911f4d44cff2a44ffe3c206589fa738f.jpg",
-  "/travel-images/918a169bbf090069562831cff42108b1.jpg",
-  "/travel-images/b55e27b99cc7b9ac2a9880e6087c8dc7.jpg",
-  "/travel-images/b917fdc63744ad30426969f6d5402ce8.jpg",
-  "/travel-images/bbd7a6fd1334471c8a774dcd5c4cf27b.jpg",
-  "/travel-images/e7f9c5996ffd239cb580afcbaf7b39be.jpg",
-  "/travel-images/ed65027a80e9751a36aa504460ba7694.jpg",
-  "/travel-images/f94c5898fcc5227a6b969b303bf8a1b6.jpg",
-  "/travel-images/fa6dec2785180e3f6486b6bf762d5292.jpg",
+  asset("/travel-images/22f55cc3f9c4f438dcaff5873166bc37.jpg"),
+  asset("/travel-images/644728dd03e03051ec91872eee56abce.jpg"),
+  asset("/travel-images/6d7127470eb0c4fa982a69d7ab4f0fbf.jpg"),
+  asset("/travel-images/911f4d44cff2a44ffe3c206589fa738f.jpg"),
+  asset("/travel-images/918a169bbf090069562831cff42108b1.jpg"),
+  asset("/travel-images/b55e27b99cc7b9ac2a9880e6087c8dc7.jpg"),
+  asset("/travel-images/b917fdc63744ad30426969f6d5402ce8.jpg"),
+  asset("/travel-images/bbd7a6fd1334471c8a774dcd5c4cf27b.jpg"),
+  asset("/travel-images/e7f9c5996ffd239cb580afcbaf7b39be.jpg"),
+  asset("/travel-images/ed65027a80e9751a36aa504460ba7694.jpg"),
+  asset("/travel-images/f94c5898fcc5227a6b969b303bf8a1b6.jpg"),
+  asset("/travel-images/fa6dec2785180e3f6486b6bf762d5292.jpg"),
 ];
 
 export default function ParallaxGallery() {

@@ -6,6 +6,7 @@ import { gsap } from "@/lib/gsap-config";
 import Reveal from "@/components/ui/reveal";
 import TiltCard from "@/components/ui/tilt-card";
 import { useToast } from "@/components/ui/toast";
+import { asset } from "@/lib/base-path";
 
 const DESTINATIONS = [
   {
@@ -13,28 +14,28 @@ const DESTINATIONS = [
     to: "Thailand",
     date: "Fri, May 21 - Mon, Jun 10",
     price: "$670.00",
-    image: "/travel-images/918a169bbf090069562831cff42108b1.jpg",
+    image: asset("/travel-images/918a169bbf090069562831cff42108b1.jpg"),
   },
   {
     from: "Dhaka",
     to: "Tokyo",
     date: "Fri, May 21 - Mon, Jun 10",
     price: "$670.00",
-    image: "/travel-images/b55e27b99cc7b9ac2a9880e6087c8dc7.jpg",
+    image: asset("/travel-images/b55e27b99cc7b9ac2a9880e6087c8dc7.jpg"),
   },
   {
     from: "Dhaka",
     to: "Chicago",
     date: "Fri, May 21 - Mon, Jun 10",
     price: "$670.00",
-    image: "/travel-images/b917fdc63744ad30426969f6d5402ce8.jpg",
+    image: asset("/travel-images/b917fdc63744ad30426969f6d5402ce8.jpg"),
   },
   {
     from: "Dhaka",
     to: "Cox's bazar",
     date: "Fri, May 21 - Mon, Jun 10",
     price: "$670.00",
-    image: "/travel-images/bbd7a6fd1334471c8a774dcd5c4cf27b.jpg",
+    image: asset("/travel-images/bbd7a6fd1334471c8a774dcd5c4cf27b.jpg"),
   },
 ];
 

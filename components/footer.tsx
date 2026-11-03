@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { useToast } from "@/components/ui/toast";
+import { asset } from "@/lib/base-path";
 
 const LINK_COLUMNS = [
   {
@@ -105,7 +106,7 @@ export default function Footer() {
       className="relative flex min-h-[500px] flex-col overflow-hidden bg-bg-dark px-4 pb-8 pt-16 text-text-primary md:px-10 md:pt-20"
     >
       <Image
-        src="/footer.png"
+        src={asset("/footer.png")}
         alt=""
         fill
         className="object-cover"

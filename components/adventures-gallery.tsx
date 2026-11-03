@@ -7,22 +7,23 @@ import Reveal from "@/components/ui/reveal";
 import MagneticButton from "@/components/ui/magnetic-button";
 import TiltCard from "@/components/ui/tilt-card";
 import { useToast } from "@/components/ui/toast";
+import { asset } from "@/lib/base-path";
 
 const BLOG_CARDS = [
   {
-    image: "/travel-images/0a96943f1916d715e834aab34919e7be.jpg",
+    image: asset("/travel-images/0a96943f1916d715e834aab34919e7be.jpg"),
     title: "Hidden Gems of Southeast Asia",
     date: "Dec 5, 2025",
     category: "Asia",
   },
   {
-    image: "/travel-images/0fa4c41f84e6f6e70057623bc670741c.jpg",
+    image: asset("/travel-images/0fa4c41f84e6f6e70057623bc670741c.jpg"),
     title: "A Guide to Coastal Escapes",
     date: "Nov 18, 2025",
     category: "Coastal",
   },
   {
-    image: "/travel-images/1babc905994f380026708c0f1c038d8c.jpg",
+    image: asset("/travel-images/1babc905994f380026708c0f1c038d8c.jpg"),
     title: "Mountain Trails Worth the Climb",
     date: "Oct 30, 2025",
     category: "Adventure",
@@ -30,13 +31,13 @@ const BLOG_CARDS = [
 ];
 
 const MOSAIC = [
-  "/travel-images/22f55cc3f9c4f438dcaff5873166bc37.jpg",
-  "/travel-images/644728dd03e03051ec91872eee56abce.jpg",
-  "/travel-images/6d7127470eb0c4fa982a69d7ab4f0fbf.jpg",
+  asset("/travel-images/22f55cc3f9c4f438dcaff5873166bc37.jpg"),
+  asset("/travel-images/644728dd03e03051ec91872eee56abce.jpg"),
+  asset("/travel-images/6d7127470eb0c4fa982a69d7ab4f0fbf.jpg"),
 ];
 
 const FEATURED = {
-  image: "/travel-images/911f4d44cff2a44ffe3c206589fa738f.jpg",
+  image: asset("/travel-images/911f4d44cff2a44ffe3c206589fa738f.jpg"),
   title: "Chasing Golden Hour Across the Horizon",
   date: "Nov 28, 2025",
 };

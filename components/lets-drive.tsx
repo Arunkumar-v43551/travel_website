@@ -8,6 +8,7 @@ import MagneticButton from "@/components/ui/magnetic-button";
 import AccordionItem from "@/components/ui/accordion-item";
 import TiltCard from "@/components/ui/tilt-card";
 import { useToast } from "@/components/ui/toast";
+import { asset } from "@/lib/base-path";
 
 const ACCORDION_ITEMS = [
   {
@@ -108,7 +109,7 @@ export default function LetsDrive() {
           <div ref={imageCardRef}>
             <TiltCard className="group relative aspect-[4/3] w-full overflow-hidden rounded-2xl shadow-[0_20px_60px_rgba(0,0,0,0.12)] md:rounded-[2rem]">
               <Image
-                src="/travel-images/fc1d3bb67539b24e1f0a73cf4f603488.jpg"
+                src={asset("/travel-images/fc1d3bb67539b24e1f0a73cf4f603488.jpg")}
                 alt="Stunning travel landscape for adventure seekers"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"

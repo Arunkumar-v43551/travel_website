@@ -5,6 +5,7 @@ import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { Space_Mono } from "next/font/google";
 import clsx from "clsx";
+import { asset } from "@/lib/base-path";
 
 const mono = Space_Mono({ subsets: ["latin"], weight: ["400", "700"] });
 
@@ -27,7 +28,7 @@ const TESTIMONIALS: Testimonial[] = [
     role: "Solo Explorer · Thailand",
     quote:
       "Movade turned a vague idea of “somewhere warm” into the best two weeks of my year.",
-    photo: "/review/20303b5f6f2cf43506bb6d88e4ad0d93.jpg",
+    photo: asset("/review/20303b5f6f2cf43506bb6d88e4ad0d93.jpg"),
     x: -330,
     y: -110,
     objectPos: "50% 14%",
@@ -39,7 +40,7 @@ const TESTIMONIALS: Testimonial[] = [
     role: "Verified Traveler · Tokyo",
     quote:
       "Every detail was planned so well I never once opened Google Maps in Tokyo.",
-    photo: "/review/355ed0f15a82c42abe7e51bba1d34606.jpg",
+    photo: asset("/review/355ed0f15a82c42abe7e51bba1d34606.jpg"),
     x: -110,
     y: -170,
     objectPos: "50% 16%",
@@ -51,7 +52,7 @@ const TESTIMONIALS: Testimonial[] = [
     role: "Family Trip · Cox's Bazar",
     quote:
       "Traveling with kids is stressful — Movade's team handled everything so we didn't have to.",
-    photo: "/review/39202174545c29bfbdb0bb981ed6e766.jpg",
+    photo: asset("/review/39202174545c29bfbdb0bb981ed6e766.jpg"),
     x: 150,
     y: -155,
     objectPos: "50% 14%",
@@ -63,7 +64,7 @@ const TESTIMONIALS: Testimonial[] = [
     role: "Honeymoon · Santorini",
     quote:
       "The sunset dinner they arranged in Oia is a memory we'll keep for life.",
-    photo: "/review/3e62508b466da1db86ac9ba0dd940490.jpg",
+    photo: asset("/review/3e62508b466da1db86ac9ba0dd940490.jpg"),
     x: 350,
     y: -75,
     objectPos: "50% 15%",
@@ -75,7 +76,7 @@ const TESTIMONIALS: Testimonial[] = [
     role: "Business Traveler · Chicago",
     quote:
       "Fast rebooking when my flight changed last minute. Genuinely felt taken care of.",
-    photo: "/review/785ca2f82448ff5b842b12e56cc1b393.jpg",
+    photo: asset("/review/785ca2f82448ff5b842b12e56cc1b393.jpg"),
     x: -370,
     y: 80,
     objectPos: "50% 13%",
@@ -87,7 +88,7 @@ const TESTIMONIALS: Testimonial[] = [
     role: "Adventure Seeker · Dubrovnik",
     quote:
       "They found a hiking route no other agency mentioned. Absolute hidden gem.",
-    photo: "/review/a583c395a9133f31190311989d79caa9.jpg",
+    photo: asset("/review/a583c395a9133f31190311989d79caa9.jpg"),
     x: -90,
     y: 210,
     objectPos: "50% 16%",
@@ -99,7 +100,7 @@ const TESTIMONIALS: Testimonial[] = [
     role: "Return Client · Amalfi Coast",
     quote:
       "Third trip booked with Movade and it keeps getting better. Never going elsewhere.",
-    photo: "/review/b6ec85be9c5a41cd707f80aa5995c7b6.jpg",
+    photo: asset("/review/b6ec85be9c5a41cd707f80aa5995c7b6.jpg"),
     x: 170,
     y: 190,
     objectPos: "50% 14%",
@@ -111,7 +112,7 @@ const TESTIMONIALS: Testimonial[] = [
     role: "Weekend Getaway · Dhaka",
     quote:
       "Even a short weekend trip felt curated and effortless from start to finish.",
-    photo: "/review/e293a27e36a2757509b589c23943616c.jpg",
+    photo: asset("/review/e293a27e36a2757509b589c23943616c.jpg"),
     x: 390,
     y: 70,
     objectPos: "50% 15%",

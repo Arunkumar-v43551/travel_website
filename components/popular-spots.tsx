@@ -7,11 +7,12 @@ import Reveal from "@/components/ui/reveal";
 import TiltCard from "@/components/ui/tilt-card";
 import MagneticButton from "@/components/ui/magnetic-button";
 import { useToast } from "@/components/ui/toast";
+import { asset } from "@/lib/base-path";
 
 const SPOTS = [
   {
     key: "santorini",
-    image: "/travel-images/0a96943f1916d715e834aab34919e7be.jpg",
+    image: asset("/travel-images/0a96943f1916d715e834aab34919e7be.jpg"),
     tag: "Featured",
     title: "Santorini Sunset Tour",
     rating: "4.9",
@@ -25,7 +26,7 @@ const SPOTS = [
   },
   {
     key: "amalfi",
-    image: "/travel-images/0fa4c41f84e6f6e70057623bc670741c.jpg",
+    image: asset("/travel-images/0fa4c41f84e6f6e70057623bc670741c.jpg"),
     tag: "Adventure",
     title: "Amalfi Coast Drive",
     rating: "4.8",
@@ -39,7 +40,7 @@ const SPOTS = [
   },
   {
     key: "dubrovnik",
-    image: "/travel-images/1babc905994f380026708c0f1c038d8c.jpg",
+    image: asset("/travel-images/1babc905994f380026708c0f1c038d8c.jpg"),
     tag: "Heritage",
     title: "Dubrovnik Old Town",
     rating: "4.7",
